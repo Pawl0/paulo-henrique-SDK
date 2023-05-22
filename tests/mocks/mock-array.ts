@@ -1,0 +1,1 @@
+export const mockArray = <T>(generator: () => T, length?: number): T[] => Array.from({ length: length ?? 3 }).map(() => generator())
