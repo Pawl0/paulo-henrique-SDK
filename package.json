@@ -1,6 +1,6 @@
 {
   "name": "paulo-henrique-sdk",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "description": "An SDK to access The Lord of the Rings API",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
