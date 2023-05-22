@@ -1,16 +1,17 @@
 {
   "name": "paulo-henrique-sdk",
-  "version": "0.0.2",
+  "version": "0.0.6",
   "description": "An SDK to access The Lord of the Rings API",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "dev": "ts-node src/index.ts",
-    "build": "rm -rf build && tsc --build",
-    "start": "node build/index.js",
+    "dev": "ts-node lib/index.ts",
+    "build": "rm -rf dist && tsc --build",
+    "start": "node dist/index.js",
     "test": "jest"
   },
   "keywords": [],
-  "author": "",
+  "author": "Paulo Henrique Oliveira dos Santos",
   "license": "ISC",
   "devDependencies": {
     "@faker-js/faker": "^8.0.1",

@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "baseUrl": ".",
+    "rootDirs": ["lib"],
+    "allowJs": true,
+    "declaration": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+  ]
+}
